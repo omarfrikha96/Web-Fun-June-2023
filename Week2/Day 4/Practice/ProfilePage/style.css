@@ -50,22 +50,35 @@ header {
 
 /* --------------------header------------------------ */
 
-main{
-    display: flex;
-    flex-wrap: wrap;
+
+main {
+   display: flex;
+   flex-wrap: wrap;
 }
 
 /*--------------------- main-body ---------------------*/
-.main-body {
-    margin: 0 0 50px 150px;
-    width: 50%;
+
+.side-bar {
+    margin: 20px 150px 0 50px;
+    padding: 10px;
+    width: 100%;
+    flex: 1;
+
 }
 
-/* -------------class profile------------------ */
-.profile{
+.main-body {
+    margin: 20px 0 0 150px;
+    padding: 10px;
+    width: 100%;
+    flex: 2;
+}
+
+/* -------------profile------------------ */
+.profile , .connection-requests , .your-connection{
     border: 3px solid gray;   
-    height: 55%;
-    margin: 50px 0;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
 
 }
 .banner-profile {
@@ -102,7 +115,7 @@ main{
 }
 
 .description {
-    margin: 0 0 20px 20px;
+    padding: 20px;
     font-size: 18px;
    
 }
@@ -119,7 +132,7 @@ main{
     margin-bottom: 20px;
     font-size: 18px;
 }    
-/* -------------class profile------------------ */
+/* -------------profile------------------ */
 
 /* -------------education------------------ */
 .Education{
@@ -128,12 +141,6 @@ main{
     margin: 50px 0;
 
 }
-.banner-education {
-    background-color: rgba(0, 0, 0, 0.849);
-    padding: 10px 20px;  
-    color: white;
-}
-
 
 .main-education {
 
@@ -154,40 +161,47 @@ font-size: 24px;
 /*--------------------- main-body ---------------------*/
 
 /* ------------------side-bar------------------------ */
-.side-bar {
-    margin: 50px 0 0 150px;
-    width: 20%;
-}
-.connection-requests{
-    border: 3px solid gray;
-}
 
 .your-connection-banner {
     background-color: rgba(0, 0, 0, 0.849);
     color: white;
     display: flex;
-    padding: 20px 0;
+    padding: 20px 5px;
 
 }
-.persons{
-    text-decoration: none; 
-    padding: 10px 0;
+
+.person{
+    display: flex;
+    justify-content: start;
+    margin: 20px 10px;
 }
 
-.persons img{
+.left , .right {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+.log-img{
     border-radius: 999em;
     height: 40px;
 }
 
- #cercle{
-  background-color: #999;
-  padding: 0 10px;
-  margin: 0 10px;
-  border-radius: 60px;
+.view-more{
+    padding: 20px;
+    border-top: 2px solid #999;
 }
 
-.your-connection{
-    border: 3px solid gray;
+#cercle {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.849);
+    border-radius: 20px;
+    height: 25px;
+    padding: 0 10px;
+    margin: 0 10px;
 }
+
 
 /* -------------------side-bar----------------------- */
