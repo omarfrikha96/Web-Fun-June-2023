@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+
+img{
+    height: 200px;
+}
+
+.top{
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.center{
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom{
+    background-color: aquamarine;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
