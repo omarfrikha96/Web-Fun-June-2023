@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* -------------Nav-barre------------------ */
+.nav-bar {
+    background-color: black;
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    padding: 0px 150px;
+}
+
+.left-part {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-links{   
+    width: 300px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.nav-title {
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;    
+}
+
+.btn{
+    background-color: rgb(6, 145, 145);
+    width: 80px;
+    color: white;
+    padding: 4px;
+}
+
+/* -------------Nav-barre------------------ */
+
+/* -------------main body------------------ */
+.main-body {
+    margin: 0 150px;
+    width: 50%;
+}
+/* -------------main body------------------ */
+
+/* -------------class profile------------------ */
+.profile{
+    border: 3px solid gray;   
+    height: 100%;
+    margin: 50px 0;
+
+}
+.banner-profile {
+    background-color: rgb(6, 145, 145);
+    height: 150px;
+}
+
+.user-img{
+    width: 150px;
+    position: relative;
+    top: 60px;
+    left: 20px;
+    border: 5px solid white;
+    border-radius: 999em;
+    box-shadow: 5px 5px 5px #999;
+
+}
+
+.main-profile h1 {
+    padding-left: 20px;
+    margin-top: 80px;
+    margin-bottom: -10px;
+}
+
+.map-marker {
+    height: 30px;
+    padding: 0px 20px;
+}
+
+.position {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.description {
+    margin: 0 0 20px 20px;
+    font-size: 18px;
+   
+}
+
+.gear {
+    width: 25px;
+    padding: 0px 15px;
+
+    }
+
+.edit {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}    
+/* -------------class profile------------------ */
+
+/* -------------education------------------ */
+.Education{
+    border: 3px solid gray;
+    height: 100%;
+    margin: 50px 0;
+
+}
+.banner-education {
+    background-color: rgba(0, 0, 0, 0.849);
+    padding: 10px 20px;  
+    color: white;
+}
+
+
+.main-education {
+
+padding: 10px 20px;
+}
+
+.main-education h2 {
+    margin: 10px 0;
+    color: #999;
+}
+
+.main-education p {
+font-size: 24px;
+}
+
+/* -------------education------------------ */
+
