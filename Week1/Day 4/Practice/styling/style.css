@@ -1,0 +1,22 @@
+h1{
+    color: aliceblue;
+    background-color: black;
+}
+
+span{
+    color: aqua
+}
+
+h2{
+    color: aliceblue;
+    background-color: blueviolet;
+    text-align: center;
+    font-style: italic;
+}
+
+h3{
+    color: rgb(51, 2, 68);
+    background-color: rgb(102, 113, 237);
+    text-decoration: underline;
+    text-align: end;
+}
