@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html {box-sizing: border-box;} 
+*, *:before, *:after {box-sizing: inherit;}  
+
+
+header h1 {
+    background-color: black;
+    color: white;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px 0 20px 20px;
+
+}
+
+.main-section{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.top-section{
+margin: 20px 0;
+text-align: center;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 30%;
+    margin: 20px 0;
+    height: 250px;
+    border: 2px solid black;
+    padding: 20px 0;
+    text-align: center  ;
+}
+
+.left p {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.container{
+    width: 65%;
+}
+.cards{
+    border: 2px solid black;
+    margin: 20px 0;
+    padding: 30px 20px;
+
+}
+
+.top{
+    display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+
+.like{
+    margin-right: 10px;
+    width: 40%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.like-btn{
+    background-color:  yellow;
+    box-shadow: 3px 3px black;
+    padding: 5px 20px;
+    font-size: 17px;
+}
+
+.description{
+    font-size: 20px;
+}
