@@ -23,7 +23,7 @@ function highPass(arr, cutoff) {
   }
   return filteredArr;
 }
-var result = highPass([6, 8, 3, 10, -2, 5, 9], 5);
+let result = highPass([6, 8, 3, 10, -2, 5, 9], 5);
 console.log(result);
 
 // // 3-Better than average
@@ -42,7 +42,7 @@ function betterThanAverage(arr) {
   return count;
 }
 
-var result2 = betterThanAverage([6, 8, 3, 10, -2, 5, 9]);
+let result2 = betterThanAverage([6, 8, 3, 10, -2, 5, 9]);
 console.log(result2); // we expect back 4
 
 // // 4-Array Reverse
@@ -60,7 +60,7 @@ console.log(result3); // we expect back ["e", "d", "c", "b", "a"]
 // 5-Fibonacci Array
 function fibonacciArray(n) {
   // the [0, 1] are the starting values of the array to calculate the rest from
-  var fibArr = [0, 1];
+  let fibArr = [0, 1];
   for (let i = 0; i < n - 2; i++) {
     let prev = fibArr[fibArr.length - 1];
     let prevprev = fibArr[fibArr.length - 2];
@@ -70,5 +70,5 @@ function fibonacciArray(n) {
   return fibArr;
 }
 
-var result = fibonacciArray(10);
+let result = fibonacciArray(10);
 console.log(result); // we expect back [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
